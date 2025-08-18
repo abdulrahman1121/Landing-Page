@@ -1,466 +1,169 @@
-<!DOCTYPE HTML>
-<!--
-	Paradigm Shift by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Personal Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdulrahman Elmi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <h1>Abdulrahman Elmi</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+	<section id="about" class="container">
+        <h2>About Me</h2>
+    </section>
 
-				<!-- Intro -->
-					<section class="intro">
-						<header>
-							<h1>Welcome</h1>
-							<p>Below is a summary of my work and education history:</p>
-							<ul class="actions">
-								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
-							</ul>
-						</header>
-						<div class="content">
-							<span class="image fill" data-position="center"><img src="images/IMG_8564 (1).jpg" alt=""/></span>
-						</div>
-					</section>
+    <section id="hero" class="container">
+		<img class="image-me" src="images/IMG_8564 (1).jpg" alt="">
+        <h2>Welcome</h2>
+        <p>Hello, my name is Abdulrahman Elmi and I'm a rising Senior at UW studying Computer Science. I'm a passionate learner and competitor, I love to explore new challenges and compete against others in everything I do. In my down time, I love to play sports and hang out with friends.</p>
+    </section>
 
-				<!-- Section -->
-					<section id="first">
-						<header>
-							<h2>Year 2024- 
-								<ul>
-									<li>Software Engineer at KeelWorks Foundation</li>
-									<li>Open-Source SWE Intern at CodeDay Labs</li>
-									<li>SWE Fellow at HeadStarter ai</li>
-									<li>Software Developer Apprentice at CFA</li>
-								</ul>
-							</h2>
-						</header>
-						<div class="content">
-							<p><strong>Hello,</strong> my name is Abdulrahman Elmi and I'm a rising junior at UWT studying Computer Science.
-							I'm a passionate learner and competitor, I love to explore new challenges and compete agianst others in everything I do. In my down time, I love to play sports and hang out with friends.</p>
-							<span class="image main"><img src="images/sports.jpg" alt="" /></span>
-						</div>
-					</section>
+	<section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <!-- To add a new project, copy the .project-card div below and paste it here. Update the img src (add your screenshot to an 'images' folder in the repo), alt text, h3 title, p description, and a href to the GitHub repo URL -->
+            <!-- Example project card -->
+            <!-- <div class="project-card">
+                <a href="https://github.com/yourusername/project-repo" target="_blank">
+                    <img src="images/project-screenshot.png" alt="Project Screenshot">
+                </a>
+                <h3>Project Title</h3>
+                <p>Short description of the project.</p>
+            </div> -->
+            <!-- Add your actual projects here as per the example above -->
+			 <div class="project-card">
+				<a href="https://abdulrahman1121.github.io/game-genie-1/#/">
+					<img src="images/game-genie-1.png" alt="">
+				</a>
+			 </div>
+			 <div class="project-card">
+				<a href="https://github.com/abdulrahman1121/LiveSync">
+					<img src="images/livesync.png" alt="">
+				</a>
+			 </div>
+			 <div class="project-card">
+				<a href="https://github.com/LeDuyhungC/Emergency-Spotter">
+					<img src="images/EmergencySpotter.png" alt="">
+				</a>
+			 </div>
+			 <div class="project-card">
+				<a href="https://github.com/abdulrahman1121/sentiment-analysis">
+					<img src="images/sentiment2.png" alt="">
+				</a>
+			 </div>
+			 <div class="project-card">
+				<a href="https://abdulrahman1121.github.io/TodoList2/">
+					<img src="images/todo.png" alt="">
+				</a>
+			 </div>
+			 <div class="project-card">
+				<a href="https://github.com/abdulrahman1121/chat-application">
+					<img src="images/codeconnect.png" alt="">
+				</a>
+			 </div>
+        </div>
+    </section>
+	
+    <section id="experience" class="container">
+        <h2>Experience & Education</h2>
+        <div class="timeline">
+            <!-- To add a new experience, copy the .timeline-item div below and paste it here, updating the content -->
+			<div class="timeline-item">
+                <div class="timeline-year">2025</div>
+                <div class="timeline-content">
+                    <ul>
+                        <li>Software Engineering Intern at Teck Tykes</li>
+                        <li>Full-Stack Lead Developer for TechStartup Club</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">2024</div>
+                <div class="timeline-content">
+                    <ul>
+                        <li>Software Engineering Intern at KeelWorks Foundation</li>
+                        <li>Software Engineering Intern at CodeDay Labs</li>
+                        <li>Software Engineering Intern at CFA</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">2023</div>
+                <div class="timeline-content">
+                    <ul>
+                        <li>Student at Algoverse Software Engineering Bootcamp</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </section>
 
-				<!-- Section -->
-					<section>
-						<header>
-							<h2>Year 2023-
-								<ul>
-									<li>student at algoverse software engineering bootcamp</li>
-								</ul>
-							</h2>
-						</header>
-						<div class="content">
-							<p><strong>Technical and soft skills,</strong> over the years, I've learned and honed skills including:</p>
-							<ul class="feature-icons">
-								<li class="icon solid fa-code">Python</li>
-								<li class="icon solid fa-code">Java</li>
-								<li class="icon solid fa-comment">Communication</li>
-								<li class="icon solid fa-cog">Problem Solving</li>
-								<li class="icon solid fa-code">JavaScript</li>
-								<li class="icon solid fa-code">HTML & CSS </li>
-							</ul>
-						</div>
-					</section>
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <!-- To add a new skill, add a new <li> here -->
+            <li>Python</li>
+            <li>Java</li>
+			<li>JavaScript</li>
+            <li>HTML & CSS</li>
+			<li>TailWind</li>
+			<li>React</li>
+			<li>Node.js</li>
+			<li>Next.js</li>
+			<li>OpenAI</li>
+			<li>Machine Learning</li>
+			<li>Git</li>
+			<li>Github</li>
+			<li>MongoDB</li>
+			<li>FireBase</li>
+			<li>SQL</li>
+			<li>NoSQL</li>
+			<li>Google Cloud Platform</li>
+            <li>Communication</li>
+            <li>Problem Solving</li>
+            <li>Leadership</li>
+			<li>Adaptability</li>
+			<li>Critical Thinking</li>
+			<li>Teamwork</li>
+			<li>Teaching</li>
+        </ul>
+    </section>
 
-				<!-- Section -->
-					<section>
-						<header>
-							<h2>Year 2022-
-								<ul>
-									<li>Attended South Seattle College for an Associate in Science</li>
-								</ul>
-							</h2>
-						</header>
-						<div class="content">
-							<strong>Technical Projects:</strong> 
+    <section id="contact" class="container">
+        <h2>Get in Touch</h2>
+        <form action="https://formspree.io/f/your-form-id" method="POST"> <!-- Replace with your actual form endpoint, e.g., Formspree or similar free service -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
 
-							<!-- Section -->
-								<section>
-									<header>
-									</header>
-									<div class="content">
-										<div class="gallery">
-											<a href="https://github.com/abdulrahman1121/LiveSync" class="landscape" target="_blank"><img src="images/livesync.png" alt=""></a>
-											<a href="https://github.com/abdulrahman1121/chat-application" class="landscape" target="_blank"><img src="images/codeconnect.png" alt=""></a>
-											<a href="https://abdulrahman1121.github.io/TodoList2/" target="_blank"><img src="images/todo.png" alt="" /></a>
-											<a href="https://abdulrahman1121.github.io/Calculator/" target="_blank"><img src="images/calculatorpic.png" alt=""></a>
-										</div>
-									</div>
-								</section>
-
-							<!-- Section -->
-								<section>
-									<header>
-										<h2>Year 2021-
-											<ul>
-												<li>Teacher Assistant at East African Community Services</li>
-												<li>Graduated from Rainier Beach High School</li>
-											</ul>
-										</h2>
-									</header>
-									<div class="content">
-									</div>
-								</section>
-
-							<!-- Section -->
-								<section>
-									<header>
-									</header>
-									<div class="content">
-									</div>
-								</section>
-
-						</div>
-					</section>
-
-				<!-- Section -->
-					<section>
-						<header>
-						</header>
-						<div class="content">
-							<p>Feel free to explore these resources to get a better understanding of my work and expertise:</p>
-							<ul class="actions">
-								<li><a href="#" class="button primary large">Get Started</a></li>
-								<li><a href="#" class="button large">Learn More</a></li>
-							</ul>
-						</div>
-					</section>
-
-				<!-- Elements -->
-				<!--
-					<section>
-						<header>
-							<h2>Elements</h2>
-						</header>
-						<div class="content">
-
-							<section>
-								<header>
-									<h3>Text</h3>
-								</header>
-								<div class="content">
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<hr />
-									<h5>Blockquote</h5>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h5>Preformatted</h5>
-									<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-  print 'Iteration ' + i;
-  deck.shuffle();
-  i++;
-}
-
-print 'Sorted in ' + i + ' iterations.';</code></pre>
-								</div>
-							</section>
-
-							<section>
-								<header>
-									<h3>Lists</h3>
-								</header>
-								<div class="content">
-
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
-
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</div>
-							</section>
-
-							<section>
-								<header>
-									<h3>Table</h3>
-								</header>
-								<div class="content">
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</div>
-							</section>
-
-							<section>
-								<header>
-									<h3>Buttons</h3>
-								</header>
-								<div class="content">
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button large">Large</a></li>
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</div>
-							</section>
-
-							<section>
-								<header>
-									<h3>Form</h3>
-								</header>
-								<div class="content">
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</div>
-							</section>
-
-						</div>
-					</section>
-				-->
-
-				<!-- Section -->
-					<section>
-						<header>
-							<h2>Get in touch</h2>
-						</header>
-						<div class="content">
-							<p>If you would like to get in touch, please fill out the form below. I am happy to answer any questions or discuss potential opportunities:</p>
-							<form>
-								<div class="fields">
-									<div class="field half">
-										<input type="text" name="name" id="name" placeholder="Name" />
-									</div>
-									<div class="field half">
-										<input type="email" name="email" id="email" placeholder="Email" />
-									</div>
-									<div class="field">
-										<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" class="button primary" /></li>
-								</ul>
-							</form>
-						</div>
-						<footer>
-							<ul class="items">
-								<li>
-									<h3>Email</h3>
-									<a href="#">abdallrahmaelmi456@gmail.com</a>
-								</li>
-								<li>
-									<h3>Phone</h3>
-									<a href="#">(206) 698-7095</a>
-								</li>
-								<li>
-									<h3>Elsewhere</h3>
-									<ul class="icons">
-										<li><a href="https://www.linkedin.com/in/abdulrahman-elmi-1813061ba/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-										<li><a href="https://github.com/abdulrahman1121" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-									</ul>
-								</li>
-							</ul>
-						</footer>
-					</section>
-
-				<!-- Copyright -->
-					<div class="copyright">&copy; Untitled. All rights reserved.
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Abdulrahman Elmi. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
 </html>
